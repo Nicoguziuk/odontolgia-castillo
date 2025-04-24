@@ -5,23 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odontología Castillo</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
 </head>
 <body>
-    <header>
-        <h1>Odontología Castillo\n</h1>
-        <p>Ortodoncia invisible - Blanqueamiento - Diseño de sonrisas - Rehabilitación - Implantoprotética</p>
-    </header>
-
+    <header class="header">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <div class="logo-container">
+          <img src="/img/logo.jpg" alt="Logo" class="logo">
+          <div class="header-text">
+            <h1>Odontología Castillo</h1>
+            <p class="servicios">Ortodoncia invisible – Blanqueamiento – Diseño de sonrisas – Rehabilitación – Implantoprotética</p>
+          </div>
+        </div>
+      </header>
     <main>
-        <section>
-           <!-- <h2>¡Hola Mundo!</h2>
-            <p>Este es un ejemplo básico de cómo se ve una web con HTML, CSS y JS.</p>
-            <button onclick="mostrarAlerta()">Haz clic aquí</button>-->
-            <a href="https://www.instagram.com/odontologia_castillo/" target="_blank">
-                <img src="../img/Instagram_icon.png" alt="Instagram" class="icono-izquierda">
-            </a>        </section>
-    </main>
+        <div class="contenedor">
+            <div id="galeria-dinamica" class="columna-imagenes">
+            </div>
+            <div class="columna-info">
+                <h2 class="info">Sobre nosotros</h2>
+                <div class="que_somos">
+                    <p>Somos especialistas en ortodoncia invisible, diseño de sonrisas y mucho más.</p>
+                </div>
 
+                <h3 class="contacto">Contacto</h3>
+                <div class="info-contacto">
+                    <div class="item-contacto">
+                        <a href="https://www.instagram.com/odontologia_castillo/" target="_blank">
+                            <img src="../img/Instagram_icon.png" alt="Instagram" class="icono-contacto">
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                    <div class="item-contacto">
+                        <a href="https://api.whatsapp.com/send/?phone=5491157202692&text&type=phone_number&app_absent=0" target="_blank">
+                            <img src="../img/whatsapp.png" alt="Whatsapp" class="icono-contacto">
+                            <span>+54 9 11 5720 2692 </span>
+                        </a>
+                    </div>
+                    <div class="item-contacto">
+                        <a target="_blank">
+                            <img src="../img/telefono.png" alt="Teléfono fijo" class="icono-contacto">
+                            <span>+54 9 11 4863 5717</span>
+                        </a>
+                    </div>
+                </div>
+                <h3>Ubicación</h3>       
+                <iframe 
+                class="mapa"
+                src="https://maps.google.com/maps?q=Bulnes%201330,%20CABA&t=&z=18&ie=UTF8&iwloc=&output=embed" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>       
+            <div class="opiniones">
+                    <h3>Opiniones de nuestros pacientes </h3>
+                </div>
+                <div class="img-reseña">
+                    <img src="../img/rese1.jpg" alt="Reseña">
+                    <img src="../img/rese2.jpg" alt="Reseña">
+                </div>
+            <a href="https://www.google.com/search?sca_esv=f35f7c11fd1fb00c&q=Odontolog
+            %C3%ADa+Castillo&ludocid=1694080582232023619&lsig=AB86z5UDzpo6Fvb9RnExPyXNYAAp&sa=
+            X&ved=2ahUKEwja5P-m-O6MAxUgLrkGHcHFIzcQoAJ6BAgZEB4&biw=1366&bih=633&dpr=1#" target="_blank">
+                <button>Dejanos tu opinión haciendo click acá</button>
+            </a>
+        </div>
+    </main>
     <footer>
         <p>&copy; 2025 - Odontología Castillo</p>
     </footer>

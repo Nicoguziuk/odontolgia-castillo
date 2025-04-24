@@ -23,19 +23,17 @@ header {
     padding: 20px;
     font-weight: 700;
     width: 100%;
-    text-align: center;
     justify-content: center;
     padding: 10px;
     background-color:white; 
-    color:black;
+    color:#333333;
     border-radius: 20px;
     border: 3px solid #c7a3e4;
 }
 
 .header-text{
-    justify-content: center;
-    padding-left: 130px;
-    margin: 0;
+    position: absolute;
+    left: 30%;
 }
 
 h1 {
@@ -44,12 +42,6 @@ h1 {
     color:#333333;
     margin-bottom: 20px;
 }
-.header-text p{
-    justify-content: center;
-    margin: 0;
-    text-align: left;
-}
-
 
 main {
     margin: 0 auto;

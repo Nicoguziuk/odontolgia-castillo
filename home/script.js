@@ -14,3 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         contenedor.appendChild(img);
     }
 });
+
+window.onload = () => {
+    document.getElementById('loading').style.display = 'none'; // Oculta el spinner
+}

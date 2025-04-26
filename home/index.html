@@ -5,19 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odontología Castillo</title>
     <link rel="stylesheet" href="estilos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-        <div class="logo-container">
-          <img src="/img/logo.jpg" alt="Logo" class="logo">
-          <div class="header-text">
-            <h1>Odontología Castillo</h1>
-            <p class="servicios">Ortodoncia invisible – Blanqueamiento – Diseño de sonrisas – Rehabilitación – Implantoprotética</p>
-          </div>
+    <div class="loading" id="loading">
+        <div class="loading-spinner"></div>
+    </div>
+    <header class="header-minimalista" data-aos="fade-down">
+        <div class="contenedor-header">
+            <a href="../home/index.html" class="logo-link">
+                <img src="../img/logo.jpg" alt="Logo Odontología Castillo" class="logo-minimalista">
+            </a>
+            <div class="textos-header">
+                <h1>Odontología Castillo</h1>
+                <p class="subtitulo-header">Ortodoncia invisible | Blanqueamiento | Diseño de sonrisas |  Rehabilitación | Implantoprotética</p>
+            </div>
         </div>
-      </header>
+    </header>    
     <main>
         <div class="contenedor">
             <div id="galeria-dinamica" class="columna-imagenes">
@@ -25,9 +31,12 @@
             <div class="columna-info">
                 <h2 class="info">Sobre nosotros</h2>
                 <div class="que_somos">
-                    <p>Somos especialistas en ortodoncia invisible, diseño de sonrisas y mucho más.</p>
+                    <p>Consultorio Odontológico Castillo</p>
+                    <p>Más de 30 años cuidando sonrisas con dedicación y profesionalismo</p>
+                    <p>SSoy odontóloga egresada de la Universidad de Buenos Aires y ejerzo esta profesión con vocación, compromiso y profundo respeto por cada paciente.</p>
+                    <p>En el Consultorio Odontológico Castillo ofrecemos atención personalizada, basada en la confianza, la ética y la excelencia clínica. Nos enfocamos en la prevención, el diagnóstico preciso y tratamientos integrales que combinan experiencia y tecnología actualizada. Creemos en la importancia de un vínculo cercano para que cada paciente se sienta contenido y acompañado.</p>
+                    <p>Te esperamos en un espacio cálido, donde el profesionalismo y la calidez humana se unen para ofrecerte la mejor atención.</p>
                 </div>
-
                 <h3 class="contacto">Contacto</h3>
                 <div class="info-contacto">
                     <div class="item-contacto">
@@ -39,7 +48,7 @@
                     <div class="item-contacto">
                         <a href="https://api.whatsapp.com/send/?phone=5491157202692&text&type=phone_number&app_absent=0" target="_blank">
                             <img src="../img/whatsapp.png" alt="Whatsapp" class="icono-contacto">
-                            <span>+54 9 11 5720 2692 </span>
+                            <span>+54 9 11 5720 2692</span>
                         </a>
                     </div>
                     <div class="item-contacto">
@@ -51,28 +60,34 @@
                 </div>
                 <h3>Ubicación</h3>       
                 <iframe 
-                class="mapa"
-                src="https://maps.google.com/maps?q=Bulnes%201330,%20CABA&t=&z=18&ie=UTF8&iwloc=&output=embed" 
-                allowfullscreen="" 
-                loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>       
-            <div class="opiniones">
-                    <h3>Opiniones de nuestros pacientes </h3>
+                    class="mapa"
+                    src="https://maps.google.com/maps?q=Bulnes%201330,%20CABA&t=&z=18&ie=UTF8&iwloc=&output=embed" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>       
+                <div class="opiniones">
+                    <h3>Opiniones de nuestros pacientes</h3>
                 </div>
                 <div class="img-reseña">
-                    <img src="../img/rese1.jpg" alt="Reseña">
-                    <img src="../img/rese2.jpg" alt="Reseña">
+                    <img src="../img/reseña1.jpeg" alt="reseña" data-aos="fade-up">
+                    <img src="../img/reseña2.jpeg" alt="reseña" data-aos="fade-up">
+                    <img src="../img/reseña3.jpeg" alt="reseña" data-aos="fade-up">
+                    <img src="../img/reseña4.jpeg" alt="reseña" data-aos="fade-up">
                 </div>
-            <a href="https://www.google.com/search?q=Odontolog%C3%ADa+Castillo&sca_esv=f35f7c11fd1fb00c&biw=1745&bih=866&ei=sroKaMeiMP7f1sQPj-jIMA&ved=0ahUKEwjHw6q62_GMAxX-r5UCHQ80EgYQ4dUDCBI&uact=5&oq=Odontolog%C3%ADa+Castillo&gs_lp=Egxnd3Mtd2l6LXNlcnAiFU9kb250b2xvZ8OtYSBDYXN0aWxsbzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYR0jGTVDqCFjcSHABeAGQAQGYAcQOoAHsK6oBETEuMS4yLjUuMS4wLjEuMC4xuAEDyAEA-AEBmAIFoAKnCcICEBAuGIAEGMcBGA0YjgUYrwHCAggQABgFGA0YHsICCBAAGAgYDRgewgIIEAAYgAQYogTCAh8QLhiABBjHARgNGI4FGK8BGJcFGNwEGN4EGOAE2AEBmAMA4gMFEgExIECIBgGQBgi6BgYIARABGBSSBwkxLjEuMS4xLjGgB_-TAbIHCTAuMS4xLjEuMbgHgAnCBwUzLTIuM8gHcw&sclient=gws-wiz-serp#" target="_blank">
-                <button>Dejanos tu opinión haciendo click acá</button>
-            </a>
+                <a href="https://www.google.com/search?q=Odontolog%C3%ADa+Castillo" target="_blank" class="boton-link">
+                    Dejanos tu opinión haciendo click acá
+                </a>
+            </div>
         </div>
     </main>
     <footer>
         <p>&copy; 2025 - Odontología Castillo</p>
     </footer>
-
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

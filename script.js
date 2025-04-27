@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     for (let i = 1; i <= cantidadImagenes; i++) {
         const img = document.createElement("img");
-        img.src = `/fotos_consul/${i}.jpeg`; 
+        img.src = `./fotos_consul/${i}.jpeg`; 
         img.alt = `Imagen ${i}`;
         img.classList.add("imagen-dinamica");
         contenedor.appendChild(img);
